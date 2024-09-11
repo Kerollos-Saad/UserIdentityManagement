@@ -26,7 +26,8 @@
 				<td>@user.UserName</td>
 				<td>@user.Email</td>
 				@* <td>@string.Join(" , ", @user.Roles.ToList())</td> *@
-				<td>Commit Test</td>
+				@* <td>Commit Test</td> *@
+				<td>Second Commit</td>
 				<td><a asp-controller="Users" asp-action="ManageRoles" asp-route-userId="@user.Id" class="btn btn-primary"> Edit User Role</a></td>
 			</tr>
 		}
